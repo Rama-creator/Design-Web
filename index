@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<title>Latihan Markup</title>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<img src="logo.jpg" alt="logo"/>
+		<ul id="menu-utama">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="index.html">Tutorial</a></li>
+			<li><a href="index.html">Video</a></li>
+			<li><a href="contactus.html">Contact US</a></li>
+		</ul>
+		<form>
+			<input type="text" name="search"/>
+		</form>
+	</div><!--Penutup div "header" -->
+<div id="daftar-artikel">
+	<div class="artikel">
+		<img src="logoart1.jpg" alt="Gambar Artikel"/>
+		<h1>Meninggal Virus Corona Di Italia Capai 10.000 orang</h1>
+		<b>Minggu, 29 Mar 2020</b><b>kompas.com</b>
+		<p>Korban meninggal akibat virus corona di Italia mencapai lebih dari 10.000 orang, meski sudah menjalani lockdown selama 16 hari. Selama 24 jam terakhir, Negeri "Pizza" mencatatkan 889 angka kematian, sehingga total korban meninggal mencapai 10.023 orang. Kini, pemerintah setempat mempertimbangkan untuk memperpanjang masa lockdown yang seharusnya berakhir pada Jumat pekan depan (3/4/2020).</p>
+		<a href="artikel3.html">Baca lebih banyak</a>
+	</div><!-- Penutup div "artikel" -->
+	<div class="artikel">
+		<img src="logoart2.jpg" alt="Gambar Artikel"/>
+		<h1>Perjuangan Para Dokter di Italia Tangani Virus Corona</h1>
+		<b>Minggu, 29 Mar 2020</b><b>Kompas.com</b>
+		<p>Kerja para medis di Italia semakin berat dalam satu bulan terakhir, ketika kasus infeksi virus corona di negara itu bertambah banyak. Angka kematian semakin tinggi.   Dengan jumlah kematian mencapai 9.313 dari 86.498 kasus, dokter dan perawat bekerja secara bergantian untuk mengelola rumah sakit yang dipenuhi pasien dan seringkali mengorbankan kesejahteraan psikologis mereka sendiri. Sebagai ahli anestesi yang terlatih dalam memberikan penghilang rasa sakit dan mengelola resusitasi, Gregoria Spagnolin, mengatakan, ia merasa tak siap untuk melihat kenyataan yang terjadi selama wabah Covid-19. "Menerima kematian seorang pasien kanker metastasis lebih mudah daripada menerima kematian seorang pasien berusia 30 tahun. Sekarang, ini adalah rutinitas sehari-hari," kata Spagnolin, dilansir dari The Independent, Sabtu (28/3/2020).</p>
+		<a href="artikel1.html">Baca lebih banyak</a>
+	</div><!-- Penutup siv "artikel" -->
+	<div class="artikel">
+		<img src="logoart3.webp" alt="Gambar Artikel"/>
+		<h1>Tertinggi Dunia,10 Ribu Orang Meninggal Gegara CODVID-19 di Italia</h1>
+		<b>Minggu, 29 Mar 2020</b><b>detikNews</b>
+		<p>Jakarta - Italia menjadi negara yang paling parah dilanda virus Corona (COVID-19) di dunia. Lebih lebih dari 10.000 warganya meninggal dunia gegara Corona meskipun telah lockdown selama 16 hari.
+        Seperti dilansir kantor berita AFP
+        ada Minggu (29/3/2020) kematian baru sebanyak 889 kasus yang dilaporkan oleh Dinas Perlindungan Sipil terjadi sehari setelah negara yang berpenduduk 60 juta itu mencatat 969 kematian pada hari Jumat (27/3), jumlah korban nasional tertinggi sejak virus COVID-19 muncul akhir tahun lalu.
+        Italia sekarang tampaknya akan memperpanjang penutupan bisnisnya yang melemahkan ekonomi dan larangan pertemuan publik melewati batas waktu 3 April</p>
+		<a href="artikel2.html">Baca lebih banyak</a>
+	</div><!-- Penutup div "artikel" -->
+</div><!-- Penutup div "daftar-artikel" -->
+<div id="sidebar">
+	<h2>Who we are?</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<h2>Artikel berdasarkan kategori</h2>
+	<ul>
+		<li><a href="">HTML dan CSS</a></li>
+		<li><a href="">Javascript</a></li>
+		<li><a href="">Photoshop</a></li>
+		<li><a href="">Inspirasi</a></li>
+		<li><a href="">Berita</a></li>
+		<li><a href="">Off Topic</a></li>
+	</ul>
+</div><!-- Penutup div "sidebar"-->
+<div id="footer">
+	<p>Desain Web copyright 2017 by Wahyu W</p>
+</div><!-- Penutup div "wrapper" -->
+</div>
+</body>
+</html>
